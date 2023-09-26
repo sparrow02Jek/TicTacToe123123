@@ -1,0 +1,220 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.AlixanInc.TicTacToe"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00020000" />
+19-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20
+21    <uses-permission android:name="android.permission.INTERNET" />
+21-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:5-67
+21-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:22-64
+22    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+22-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:5-79
+22-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:22-76
+23
+24    <uses-feature
+24-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-19:36
+25        android:name="android.hardware.touchscreen"
+25-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-52
+26        android:required="false" />
+26-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:9-33
+27    <uses-feature
+27-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.touchscreen.multitouch"
+28-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-63
+29        android:required="false" />
+29-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.touchscreen.multitouch.distinct"
+31-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-72
+32        android:required="false" />
+32-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+33
+34    <uses-permission android:name="com.android.vending.BILLING" />
+34-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:10:5-67
+34-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:10:22-64
+35
+36    <application
+36-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-121
+37        android:banner="@drawable/app_banner"
+37-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:81-118
+38        android:extractNativeLibs="true"
+38-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-41
+39        android:icon="@mipmap/app_icon"
+39-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+40        android:isGame="true"
+40-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:29:9-30
+41        android:label="@string/app_name" >
+41-->C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+42        <activity
+42-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:9-58:20
+43            android:name="com.unity3d.player.UnityPlayerActivity"
+43-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:13-66
+44            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+44-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-194
+45            android:hardwareAccelerated="false"
+45-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-48
+46            android:launchMode="singleTask"
+46-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-44
+47            android:resizeableActivity="false"
+47-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-47
+48            android:screenOrientation="reverseLandscape"
+48-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-57
+49            android:theme="@style/UnityThemeSelector" >
+49-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-54
+50            <intent-filter>
+50-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-43:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:17-69
+51-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:17-77
+53-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:27-74
+54                <category android:name="android.intent.category.LEANBACK_LAUNCHER" />
+54-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-86
+54-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-83
+55            </intent-filter>
+56
+57            <meta-data
+57-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+58                android:name="unityplayer.UnityActivity"
+58-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
+59                android:value="true" />
+59-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+60
+61            <layout
+61-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:13-53:44
+62                android:defaultHeight="1080px"
+62-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-47
+63                android:defaultWidth="1920px"
+63-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-46
+64                android:minHeight="300px"
+64-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-42
+65                android:minWidth="400px" />
+65-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:17-41
+66
+67            <meta-data
+67-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-57:40
+68                android:name="android.notch_support"
+68-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:17-53
+69                android:value="true" />
+69-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:17-37
+70        </activity>
+71
+72        <meta-data
+72-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:9-62:33
+73            android:name="unity.splash-mode"
+73-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-45
+74            android:value="0" />
+74-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-30
+75        <meta-data
+75-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:9-65:36
+76            android:name="unity.splash-enable"
+76-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-47
+77            android:value="True" />
+77-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-33
+78        <meta-data
+78-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:9-68:36
+79            android:name="unity.launch-fullscreen"
+79-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-51
+80            android:value="True" />
+80-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-33
+81        <meta-data
+81-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:9-71:37
+82            android:name="unity.allow-resizable-window"
+82-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:13-56
+83            android:value="False" />
+83-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-34
+84        <meta-data
+84-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:9-74:50
+85            android:name="notch.config"
+85-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:73:13-40
+86            android:value="portrait|landscape" />
+86-->[:unityLibrary] C:\Users\NEXTGENPC\Desktop\TICTACTOE\TicTacToe\TicTacToeUnity\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:74:13-47
+87
+88        <activity
+88-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:13:9-17:74
+89            android:name="com.unity3d.services.ads.adunit.AdUnitActivity"
+89-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:14:13-74
+90            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+90-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:15:13-170
+91            android:hardwareAccelerated="true"
+91-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:16:13-47
+92            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+92-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:17:13-71
+93        <activity
+93-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:18:9-22:86
+94            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentActivity"
+94-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:19:13-85
+95            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+95-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:20:13-170
+96            android:hardwareAccelerated="true"
+96-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:21:13-47
+97            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+97-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:22:13-83
+98        <activity
+98-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:23:9-27:86
+99            android:name="com.unity3d.services.ads.adunit.AdUnitTransparentSoftwareActivity"
+99-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:24:13-93
+100            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+100-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:25:13-170
+101            android:hardwareAccelerated="false"
+101-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:26:13-48
+102            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+102-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:27:13-83
+103        <activity
+103-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:28:9-32:74
+104            android:name="com.unity3d.services.ads.adunit.AdUnitSoftwareActivity"
+104-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:29:13-82
+105            android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"
+105-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:30:13-170
+106            android:hardwareAccelerated="false"
+106-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:31:13-48
+107            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+107-->[:UnityAds:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\b1118aa3f79366e0497e6617d8a6b855\UnityAds\AndroidManifest.xml:32:13-71
+108
+109        <meta-data
+109-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:13:9-15:37
+110            android:name="com.google.android.play.billingclient.version"
+110-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:14:13-73
+111            android:value="3.0.3" />
+111-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:15:13-34
+112
+113        <activity
+113-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:17:9-21:75
+114            android:name="com.android.billingclient.api.ProxyBillingActivity"
+114-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:18:13-78
+115            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+115-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:19:13-96
+116            android:exported="false"
+116-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:20:13-37
+117            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+117-->[:billing-3.0.3:] C:\Users\NEXTGENPC\.gradle\caches\transforms-2\files-2.1\72e7a7b09a997d52641d3b5757791c7e\billing-3.0.3\AndroidManifest.xml:21:13-72
+118    </application>
+119
+120</manifest>
